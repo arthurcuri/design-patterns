@@ -4,20 +4,23 @@ Bem-vindo ao repositório! Aqui você encontrará implementações e explicaçõ
 
 ## Padrões abordados
 
-### Facade (Fachada)
+### Facade 
 Simplifica o uso de sistemas complexos criando uma interface única para interagir com múltiplas classes. Exemplo: um controle remoto que liga vários dispositivos com um único botão.
 
-### Factory (Fábrica)
+### Factory 
 Centraliza a criação de objetos sem expor os detalhes de implementação. Exemplo: uma fábrica de carros que entrega modelos específicos sob demanda.
 
-### Mediator (Mediador)
+### Mediator 
 Facilita a comunicação entre objetos sem que eles se conheçam diretamente, reduzindo dependências. Exemplo: um chat em grupo onde um servidor intermedia mensagens entre usuários.
 
-### Observer (Observador)
+### Observer
 Define uma relação de "publicação e inscrição", onde múltiplos objetos podem reagir automaticamente a mudanças em um objeto principal. Exemplo: um sistema de notificações que alerta os usuários sobre atualizações.
 
-### Strategy (Estratégia)
+### Strategy 
 Permite alterar o comportamento de um objeto dinamicamente através da substituição de algoritmos. Exemplo: diferentes estratégias de pagamento em um e-commerce (cartão, boleto, PIX).
+
+### Composite 
+Geralmente utilizado para estruturas hierárquicas, o padrão Composite permite tratar múltiplos objetos compostos de outros objetos de forma unificada, até atingir os elementos mais simples (folhas).
 
 ## Estrutura do Repositório
 Cada padrão possui uma pasta dedicada com:
